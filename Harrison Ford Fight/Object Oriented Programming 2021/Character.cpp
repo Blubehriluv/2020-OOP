@@ -2,11 +2,6 @@
 #include <string>
 #include "Character.h"
 
-void Character()
-{
-	
-}
-
 int GetHealth()
 {
 	return 0;
@@ -25,4 +20,13 @@ void Talk(std::string stuffToSay)
 void Talk(std::string stuffToSay, std::string Name)
 {
 	std::cout << Name << ", " << stuffToSay << "." << std::endl;
+}
+
+int SetHealth(int healthSet)
+{
+	if (healthSet <= 0)
+	{
+		healthSet = 0;
+		std::cout << "Character has expired..." << std::endl;
+	}
 }

@@ -1,6 +1,6 @@
 #pragma once
-#include <string>
 #include "GameStructure.h"
+#include <string>
 
 class Character:
 	public GameStructure

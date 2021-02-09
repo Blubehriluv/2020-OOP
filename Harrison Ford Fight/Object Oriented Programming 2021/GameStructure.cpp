@@ -1,6 +1,7 @@
 #include <string>
 #include <iostream>
 #include "GameStructure.h"
+#include "HanSolo.h"
 
 //int randomNum;
 
@@ -9,7 +10,6 @@ void Intro()
 {
 	std::cout << "Welcome to the Harrison Ford Fight!" << std::endl;
 	std::cout << "Which Hollywood star will take home the victory!" << std::endl;
-
 	std::cout << "Random number 1: ";
 }
 
@@ -23,10 +23,11 @@ int RandomRoll()
 
 // Main function to start program.
 int main()
-{
-	
+{	
 	Intro();
 	RandomRoll();
-	RandomRoll();
-	
+
+	HanSolo hanBoy("name");
+	hanBoy.GetHealth;
+	hanBoy.JediDodge();
 }
