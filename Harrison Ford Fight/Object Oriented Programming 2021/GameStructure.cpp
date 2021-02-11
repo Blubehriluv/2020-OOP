@@ -1,16 +1,14 @@
-#include <string>
 #include <iostream>
 #include "GameStructure.h"
 #include "HanSolo.h"
-
-//int randomNum;
+#include "IndianaJones.h"
+#include <cstdlib>
 
 // The introduction to the program.
 void Intro()
 {
 	std::cout << "Welcome to the Harrison Ford Fight!" << std::endl;
 	std::cout << "Which Hollywood star will take home the victory!" << std::endl;
-	std::cout << "Random number 1: ";
 }
 
 // Initiates a random roll producing a number between 1 and 100.
@@ -27,7 +25,15 @@ int main()
 	Intro();
 	RandomRoll();
 
-	HanSolo hanBoy("name");
-	hanBoy.GetHealth;
+	HanSolo hanBoy("Han");
+	hanBoy.SetHealth(250);
+	hanBoy.GetHealth();
 	hanBoy.JediDodge();
+	hanBoy.DisplayCharacterStats();
+
+	IndianaJones indBoy("Indy");
+	indBoy.SetHealth(225);
+	indBoy.GetHealth();
+	indBoy.CrackWhip();
+	indBoy.DisplayCharacterStats();
 }

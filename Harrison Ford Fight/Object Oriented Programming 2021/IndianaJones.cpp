@@ -1,25 +1,31 @@
 #include <iostream>
 #include <string>
 #include "Character.h"
+#include "IndianaJones.h"
 
-void IndianaJones(std::string givenName)
+// This creates an Indiana Jones character with whatever name given.
+IndianaJones::IndianaJones(std::string givenName)
 {
-	std::cout << "Prepare to lose!" << std::endl;
+	Name = givenName;
+	std::cout << Name << ": Prepare to lose!" << std::endl;
 }
 
-void FirePistol()
+// This is the attack for Indiana Jones
+void IndianaJones::FirePistol()
 {
-	std::cout << "POW, POW!" << std::endl;
-	std::cout << "I oughta kill you right now." << std::endl;
+	std::cout << Name << ": POW, POW!" << std::endl;
+	std::cout << Name << ": I oughta kill you right now." << std::endl;
 }
 
-void CrackWhip()
+// This is Indiana Jones's defense/dodge/parry
+void IndianaJones::CrackWhip()
 {
-	std::cout << "CRACK!" << std::endl;
-	std::cout << "That belongs in a museum!" << std::endl;
+	std::cout << Name << ": CRACK!" << std::endl;
+	std::cout << Name << ": That belongs in a museum!" << std::endl;
 }
 
-void IJHurt()
+// This is when Indiana Jones gets hurt.
+void IndianaJones::IJHurt()
 {
-	std::cout << "AUUUGHGHH" << std::endl;
+	std::cout << Name << ": AUUUGHGHH" << std::endl;
 }

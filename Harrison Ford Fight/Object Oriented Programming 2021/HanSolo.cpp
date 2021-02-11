@@ -1,25 +1,31 @@
 #include <iostream>
 #include <string>
 #include "Character.h"
+#include "HanSolo.h"
 
-void HanSolo(std::string givenName)
+// This creates the HanSolo character with whatever name was given
+HanSolo::HanSolo(std::string givenName)
 {
-	std::cout << "Get ready to go home empty handed!" << std::endl;
+	Name = givenName;
+	std::cout << Name << ": Get ready to go home empty handed!" << std::endl;
 }
 
-void FireBlaster()
+// This is Han Solo's attack
+void HanSolo::FireBlaster()
 {
-	std::cout << "PEW, PEW!" << std::endl;
-	std::cout << "Sorry about the mess." << std::endl;
+	std::cout << Name << ": PEW, PEW!" << std::endl;
+	std::cout << Name << ": Sorry about the mess." << std::endl;
 }
 
-void JediDodge()
+// This is Han Solo's block/dodge/parry
+void HanSolo::JediDodge()
 {
-	std::cout << "Greedo didnt' shoot ;)" << std::endl;
-	std::cout << "But I can still dodge like lightning!" << std::endl;
+	std::cout << Name << ": Greedo didn't shoot ;)" << std::endl;
+	std::cout << Name << ": But I can still dodge like lightning!" << std::endl;
 }
 
-void HSHurt()
+// This is when Han Solo gets hurt
+void HanSolo::HSHurt()
 {
-	std::cout << "OUUUUGHGHGH" << std::endl;
+	std::cout << Name << ": OUUUUGHGHGH" << std::endl;
 }

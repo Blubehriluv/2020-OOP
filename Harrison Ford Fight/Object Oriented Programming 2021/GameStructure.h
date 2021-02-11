@@ -1,6 +1,4 @@
 #pragma once
-#include "Character.h"
-
 class GameStructure
 {
 public:
