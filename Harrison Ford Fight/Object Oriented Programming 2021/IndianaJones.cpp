@@ -17,7 +17,7 @@ void IndianaJones::FirePistol()
 	std::cout << Name << ": I oughta kill you right now." << std::endl;
 }
 
-// This is Indiana Jones's defense/dodge/parry
+// This is Indiana Jones' defense/dodge/parry
 void IndianaJones::CrackWhip()
 {
 	std::cout << Name << ": CRACK!" << std::endl;
@@ -28,4 +28,16 @@ void IndianaJones::CrackWhip()
 void IndianaJones::IJHurt()
 {
 	std::cout << Name << ": AUUUGHGHH" << std::endl;
+}
+
+// Shows the user how to use their character's abilities
+void IndianaJones::Help()
+{
+	
+}
+
+int IndianaJones::Attack()
+{
+	IndianaJones::FirePistol();
+	return 25;
 }

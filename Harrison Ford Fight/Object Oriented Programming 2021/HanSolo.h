@@ -9,4 +9,6 @@ public:
 	void FireBlaster();
 	void JediDodge();
 	void HSHurt();
+	int Attack() override;
+	void Help();
 };

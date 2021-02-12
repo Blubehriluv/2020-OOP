@@ -12,6 +12,9 @@ public:
 	void Talk(std::string stuffToSay);
 	void Talk(std::string stuffToSay, std::string Name);
 	int SetHealth(int healthSet);
+	int virtual Attack();
+	void Help();
 private:
-	int Health;
+	int Health = 0;
+	
 };

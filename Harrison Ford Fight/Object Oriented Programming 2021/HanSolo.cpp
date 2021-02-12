@@ -10,7 +10,7 @@ HanSolo::HanSolo(std::string givenName)
 	std::cout << Name << ": Get ready to go home empty handed!" << std::endl;
 }
 
-// This is Han Solo's attack
+// Han Solo's attack text
 void HanSolo::FireBlaster()
 {
 	std::cout << Name << ": PEW, PEW!" << std::endl;
@@ -28,4 +28,16 @@ void HanSolo::JediDodge()
 void HanSolo::HSHurt()
 {
 	std::cout << Name << ": OUUUUGHGHGH" << std::endl;
+}
+
+// Shows the user how to use their character's abilities
+void HanSolo::Help()
+{
+	
+}
+
+int HanSolo::Attack()
+{
+	HanSolo::FireBlaster();
+	return 25;
 }

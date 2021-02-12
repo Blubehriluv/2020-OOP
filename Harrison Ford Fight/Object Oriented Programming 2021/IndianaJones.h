@@ -9,4 +9,6 @@ public:
 	void FirePistol();
 	void CrackWhip();
 	void IJHurt();
+	int Attack() override;
+	void Help();
 };

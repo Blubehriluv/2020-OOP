@@ -54,3 +54,13 @@ int Character::SetHealth(int healthSet)
 	return Health;
 
 }
+
+int Character::Attack()
+{
+	return 10;
+}
+
+void Character::Help()
+{
+	
+}

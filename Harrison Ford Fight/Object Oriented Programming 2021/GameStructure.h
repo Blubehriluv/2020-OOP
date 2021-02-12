@@ -3,7 +3,7 @@ class GameStructure
 {
 public:
 	void Intro();
-	int RandomRoll();
+	int PlayerTurn();
 	int main();
 private:
 
