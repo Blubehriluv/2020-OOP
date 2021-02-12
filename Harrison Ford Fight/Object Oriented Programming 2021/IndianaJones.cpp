@@ -33,7 +33,7 @@ void IndianaJones::IJHurt()
 // Shows the user how to use their character's abilities
 void IndianaJones::Help()
 {
-	
+	std::cout << "I can 'fire' my 'pistol' to hurt the enemy, and 'crack' my 'whip' to knock his bullets outta the air!" << std::endl;
 }
 
 int IndianaJones::Attack()

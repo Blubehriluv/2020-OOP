@@ -61,5 +61,5 @@ int Character::Attack()
 
 void Character::Help()
 {
-	
+	std::cout << "This will tell the user how to use their character" << std::endl;
 }

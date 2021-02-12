@@ -33,7 +33,7 @@ void HanSolo::HSHurt()
 // Shows the user how to use their character's abilities
 void HanSolo::Help()
 {
-	
+	std::cout << "I can 'fire' my 'blaster' to deal damage and use my 'jedi dodge' to avoid getting hurt!" << std::endl;
 }
 
 int HanSolo::Attack()
