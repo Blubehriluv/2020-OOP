@@ -1,3 +1,3 @@
 ﻿  GameStructure.cpp
-C:\Users\taymcken\Documents\GitHub\2021-OOP\Harrison Ford Fight\Object Oriented Programming 2021\GameStructure.cpp(158,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\taymcken\Documents\GitHub\2021-OOP\Harrison Ford Fight\Object Oriented Programming 2021\GameStructure.cpp(570,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Object Oriented Programming 2021.vcxproj -> C:\Users\taymcken\Documents\GitHub\2021-OOP\Harrison Ford Fight\Debug\Object Oriented Programming 2021.exe

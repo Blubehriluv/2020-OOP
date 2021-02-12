@@ -47,7 +47,6 @@ int Character::SetHealth(int healthSet)
 	}
 	else
 	{
-		std::cout << std::endl;
 		std::cout << "My health is now " << healthSet << std::endl;
 		Health = healthSet;
 	}
